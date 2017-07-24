@@ -1,0 +1,27 @@
+
+/*customiacion del encabezado*/
+.conteiner header{ /*este es el contenedor principar y el padre, los demas elementos son todos hijos*/
+  width: 100%;  /*que tome el ancho total del dispositivo*/
+  height: 100px; /*que tome 100px de altura(solo dandole una altura logramos ver el color que le demos, si no solo lo veremos si dentro ponemos objetos)*/
+  background: rgb(224, 11, 49); /*color del header*/
+
+  display: flex; /*combertirlo caja flexible Padre*/
+  justify-content: space-between; /*dejar un espacio en medio entre cada hijo*/
+  align-items: center;  /*alinear los hijos al centro en el eje Y*/
+  padding-right: 10px;  /*separar el ultimo componente 10px del final del dispositivo para que no este muy pegado*/
+}
+.conteiner .logo{  /*customizacion del circulo con el texto"Aqui viene el logo"*/
+  width: 100px;  /*ancho*/
+  height: 100px;  /*alto*/
+  background: #000;  /*color de fondo*/
+  color: #fff;  /*color de texto*/
+  text-align: center;  /*alineacion del texto en el eje Y*/
+  display: flex; /*combertir en caja flexible*/
+  align-items: center; /*para alinear el texto en el eje X*/
+  border-radius: 50%; /*suabizar los bordes para que tenga una forma circular(en ralidad esto es un cauadrado si comentamos el codigo)*/
+}
+
+.conteiner header h1{  /*customizacion dl texto "JM Corporation" que esta dentro de un h1*/
+  color: #fff; /*color del texto*/
+  font-family: decker;  /*alineacion en el eje Y*/
+}

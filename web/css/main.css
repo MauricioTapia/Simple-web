@@ -1,0 +1,19 @@
+*{  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  /*background: #000;*/
+  min-height: 100vh;
+}
+
+.conteiner{
+  width: 100%;
+  /*min-height: 100vh;*/
+  /*height: 500px;*/
+  /*background: rgb(230, 177, 21);*/
+}
